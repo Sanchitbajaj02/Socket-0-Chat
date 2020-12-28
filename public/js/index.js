@@ -1,4 +1,6 @@
 // Node Server which will handle socket io connections
+// import server from '../server';
+
 const io = require("socket.io").listen(3000);
 const users = {};
 
